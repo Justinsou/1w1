@@ -1,0 +1,76 @@
+/*  ----------------------------------------------------------------initialisation */
+*{
+    margin:0;
+    padding:0;
+}
+html {
+    box-sizing: border-box;
+     }
+    *,
+    *:before,
+    *:after {
+    box-sizing: inherit;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+}
+/* Navigation principale */
+/* les conteneurs div autour de chaque sélection */
+.global {
+    display: flex;
+    justify-content: center;
+   /*  align-items: center; */
+    min-width: 100%;
+    min-height: 100vh;
+}
+.global section,
+.global header,
+.global footer {
+    display: flex;
+    flex: 0 1 1000px;
+    background-color: rgba(0,0,0,.1);
+}
+#entete {
+    background-color: rgb(221, 53, 53);
+    min-height: 1vh;
+    position: sticky;
+    top: 0;
+  
+}
+#entete header {
+    justify-content: space-between;
+    align-items: center;
+    /*  Permet de définir le réferentiel pour le menu  */
+    position: relative;
+}
+#accueil {
+    background-color: aqua;
+}
+#inscription {
+    background-color: rgb(240, 128, 204);
+}
+#tableau {
+    background-color: rgb(237, 222, 53);
+}
+#articles {
+    background-color: rgb(221, 37, 218);
+}
+#galerie {
+    background-color: rgb(133, 240, 128);
+}
+#video {
+    background-color: rgb(237, 120, 47);
+}
+#piedpage {
+    background-color: rgb(118, 124, 237);
+}
+
+
+h1 {
+
+}
+h2 {
+    margin-top: 10vh;
+}
