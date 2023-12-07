@@ -1,0 +1,40 @@
+/* <!--    section inscriptions-->
+<div class="global" id="inscription">
+    <section>
+        <h2>Inscription</h2>
+        <form action="" class="formulaire">
+            <label class="etiquette__nom" for="input__nom">Nom :</label>
+            <input type="text" id="input__nom">
+
+            <label class="etiquette__prenom" for="input__prenom">Prénom :</label>
+            <input type="text" id="input__prenom">
+
+            <label class="etiquette__tel" for="input__tel">Téléphone :</label>
+            <input type="text" id="input__tel">
+
+        </form>
+    </section>
+</div> */
+
+.formulaire {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.formulaire label {
+
+}
+.formulaire input[type=text] {
+    
+}
+.etiquette__nom {
+
+}
+
+.form__chk{
+    display: flex;
+    gap:5px;
+}
+.form__chk label{
+   padding-left: 10px;
+}

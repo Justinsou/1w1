@@ -1,0 +1,64 @@
+/* 
+<div class="global" id="piedpage">
+        <footer>
+    <!-- ////////////////////////////////////////////////// première ligne-->
+           <div class="footer__conteneur">
+            <section class="footer__adresse">
+                <h4>Adresse</h4>
+                <ul>
+                    <li><a href="https://www.cmaisonneuve.qc.ca/">"lien de"</a>College maisonneuve</li>
+                    <li>Sherbrook</li>
+                    <li>Montréal, Qc</li>
+                    <li>H1X 2A2</li>
+                </ul>
+            </section>
+            <section class="footer__lien">Lien
+                <h4>Liens :</h4>
+                <li><a href="#">css-trick.com</a></li>
+            </section>
+            <section class="footer__texte">Texte</section>
+           </div>
+    <!-- ////////////////////////////////////////////////// ligne2 -->
+           <div class="footer__conteneur__2">
+            <section class="image">Image
+                <figure>
+                    <img src="https://s2.svgbox.net/illlustrations.svg?ic=apple-watch&color=000000" width="32" height="32">
+                    <img src="https://s2.svgbox.net/illlustrations.svg?ic=ram&color=000000" width="32" height="32">
+                </figure>
+            </section>
+                <section class="footer__lien">Lien</section>
+           </div>
+    <!-- ////////////////////////////////////////////////// ligne3 -->
+           <div class="footer__conteneur__3"></div>
+        <section class="icone">Icone
+            <figure>
+                <img src="https://s2.svgbox.net/social.svg?ic=github&color=000" width="32" height="32">
+                <img src="https://s2.svgbox.net/social.svg?ic=instagram&color=000" width="32" height="32">
+                <img src="https://s2.svgbox.net/social.svg?ic=youtube&color=000" width="32" height="32">
+            </figure>
+
+        </section>
+            
+        </footer>
+        */
+#piedpage  > footer {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+#piedpage  > footer > div {
+    display: flex;
+    border: solid 1px #5c5c5c;
+}
+#piedpage  > footer > div > section {
+    border: solid 1px #666;
+}
+.footer__adresse ul
+.footer__lien ul {
+    list-style: none;
+}
+.footer__conteneur__3 {
+    justify-content: center;
+    gap: 20px;
+}
