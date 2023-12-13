@@ -34,6 +34,7 @@
 .form__chk{
     display: flex;
     gap:5px;
+    width: 26%;
 }
 .form__chk label{
    padding-left: 10px;

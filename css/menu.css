@@ -21,8 +21,8 @@
     width: 40px;
     position: absolute;
     margin-left: auto;
-    top:0;
-    right:0;
+    top: 25px;
+    right: 5px;
     z-index:10;
 }
 #burger img {
@@ -65,11 +65,11 @@
     top: 100%;
     z-index: 1;
     transform: translate(0, -200%); /* position qui cache le menu */
-    transition: transform 1.5s;
+    transition: transform .5s;
 }
 .menu a {
-    /* border: 2px solid #000000;
-    border-radius: 5px; */
+    border: 2px solid #ffffff;
+    border-radius: 10px;
     color: #000000;
     padding: 5px; 
     text-decoration: none;

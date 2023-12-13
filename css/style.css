@@ -31,14 +31,13 @@ body {
     display: flex;
     flex: 0 1 1000px;
     background-color: rgba(0,0,0,.1);
-
 }
 
 .global section, .global footer{
     flex-direction: column;
 }
 #entete {
-    background-image: linear-gradient(90deg, #ff0000, rgb(25, 0, 255)) ;
+    background-image: linear-gradient(90deg, #9d00ff, rgb(25, 0, 255)) ;
     min-height: 1vh;
     position: sticky;
     top: 0;
@@ -51,32 +50,41 @@ body {
     position: relative;
 }
 #accueil {
-    background-color: aqua;
+    background-color: rgb(75, 99, 255);
 }
 #inscription {
-    background-color: rgb(240, 128, 204);
+    background-color: rgb(173, 75, 253);
 }
 #tableau {
-    background-color: rgb(237, 222, 53);
+    background-color: rgb(247, 77, 162);
 }
 #articles {
-    background-color: rgb(221, 37, 218);
+    background-color: rgb(249, 87, 87);
 }
 #galerie {
-    background-color: rgb(133, 240, 128);
+    background-color: rgb(244, 153, 78);
 }
 #video {
-    background-color: rgb(237, 120, 47);
+    background-color: rgb(250, 235, 76);
 }
 #piedpage {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(117, 255, 72);
 }
 
 
 h1 {
     /* font size avec un Clamp chercher sur internet */
-    color: #ff0000;
+    font-size: clamp(16px, 4vw, 36px);
+    color: #ffffff;
 }
 h2 {
     margin-top: 10vh;
+    font-size: clamp(12px, 3vw, 26px);
+    
+}
+h3 {
+    font-size: clamp(9px, 3vw, 20px);
+    color: #ffffff;
+    margin: 15px;
+    padding: 8px;
 }
