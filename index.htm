@@ -7,33 +7,45 @@
 
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/menu.css">
-    <link rel="stylesheet" href="css/galerie.css">
+    <link rel="stylesheet" href="css/entete.css">
+    <link rel="stylesheet" href="css/accueil.css">
     <link rel="stylesheet" href="css/formulaire.css">
+    <link rel="stylesheet" href="css/tableau.css">
+    <link rel="stylesheet" href="css/article.css">
+    <link rel="stylesheet" href="css/galerie.css">
+    <link rel="stylesheet" href="css/video.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/style.css">
-</head>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Righteous&family=Rock+Salt&display=swap" rel="stylesheet"></head>
 <body>
     
      <!--    section entente-->
     <div class="global" id="entete">
         <header>
             <h1>Justin Soulard</h1>
+            <form class="entete__form">
+                <input type="search" id="recherche" placeholder="Rechercher">
+                <label for="recherche">🔎</label>
+              </form>
 
             <!-- Bouron burger-->
             <input type="checkbox" id="chk_burger">
-            <label id="burger" for="chk_burger"><img src="https://s2.svgbox.net/hero-outline.svg?ic=menu&color=ff0000" width="36" height="36">
-                <img src="https://s2.svgbox.net/hero-outline.svg?ic=sort-ascending&color=fff" width="36" height="36">
+            <label id="burger" for="chk_burger"><img src="https://s2.svgbox.net/hero-outline.svg?ic=menu&color=ff0000" width="36" height="36" alt="menu">
+                <img src="https://s2.svgbox.net/hero-outline.svg?ic=sort-ascending&color=fff" width="36" height="36" alt="menu__">
             </label>
             
                 <!--    section nav-->
             <nav class="menu">
                 <a href="#accueil">Accueil</a>
-                <a href="#inscription">Inscription</a>
+                <a href="#formulaire">Formulaire</a>
                 <a href="#tableau">Tableau</a>
                 <a href="#articles">Articles</a>
                 <a href="#galerie">Galerie</a>
                 <a href="#video">Vidéo</a>
-                <a href="#piedpage">Piedpage</a>
+                <a href="#piedpage">Me contacter</a>
             </nav>
 
         </header>
@@ -43,19 +55,22 @@
     <!--    section accueil-->
     <div class="global" id="accueil">
         <section>
-            <h2>Acceuil</h2>
-            <h3>Bonjour, je m'appele Justin Soulard, je suis un étudiant au collège Maisonnneuve en techinwue d'intégration integration-multimedia. 
-                Je suis passionné par l'informatique, le cinéma, le design!!
-                
-            </h3>
+            <h2>TP2</h2>
+            <h3>Justin Soulard</h3>
+            <h3>1W1 – Mise en page Web</h3>
+            <h3>Techniques d’intégration multimédia</h3>
+            <h3>Collège de Maisonneuve</h3>
+            <h3><a href="https://github.com/Justinsou">Github</a></h3>
+            <h3>Automne 2023</h3>
            </section>
     </div>
+    
 
-    <!--    section inscriptions-->
-    <div class="global" id="inscription">
+    <!--    section Formulaire-->
+    <div class="global" id="formulaire">
         <section>
             <h2>Pour me contacter</h2>
-            <form action="" class="formulaire">
+            <form action="formulaire" class="formulaire">
                 <label class="etiquette__nom" for="input__nom">Nom :</label>
                 <input type="text" id="input__nom" placeholder="Votre nom de famille">
 
@@ -82,39 +97,142 @@
     <div class="global" id="tableau">
         <section>
             <h2>Tableau</h2>
+
+            <table>
+                <caption>Horaire Justin Soulard automne 2023</caption>
+                <tr> 
+                    <th></th>
+                    <th>LUNDI</th>
+                    <th>MARDI</th>
+                    <th>MERCREDI</th>
+                    <th>JEUDI</th>
+                    <th>VENDREDI</th>
+                </tr>
+                <tr>
+                    <th>8h10</th>
+                    <td class="français" rowspan="2">FRANÇAIS</td>
+                    <td class="escalade" rowspan="2">ESCALADE</td>
+                    <td rowspan="3"></td>
+                    <td class="conception"rowspan="3">CONCEPTION</td>
+                    <td rowspan="2"></td>
+                </tr>
+                <tr>
+                    <th>9h</th>
+                </tr>
+                <tr>
+                    <th>10h10</th>
+                    <td rowspan="2"></td>
+                    <td rowspan="2"></td>
+                    <td class="création" rowspan="2">CRÉATION</td>
+                </tr>
+                <tr>
+                    <th>11h10</th>
+                    <td class="animation" rowspan="2">ANIMATION</td>
+                    <td></td>
+                
+                </tr>
+                <tr>
+                    <th>12h10</th>
+                    <td class="anglais" rowspan="3">ANGLAIS</td>
+                    <td class="pause" rowspan="2">PAUSES COMMUNES</td>
+        
+                    <td class="pause" rowspan="2">PAUSES COMMUNES</td>
+                    <td rowspan="2"></td>
+                </tr>
+        
+                <tr>
+                    <th>13h10</th>
+                    <td></td>
+        
+                </tr>
+                <tr>
+                    <th>14h10</th>
+                    <td class="web" rowspan="3">MISE EN PAGE</td>
+                    <td class="création" rowspan="3">CRÉATION</td>
+                    <td class="web" rowspan="2">MISE EN PAGE</td>
+                    <td class="animation" rowspan="3">ANIMATION</td>
+                </tr>
+        
+                <tr>
+                    <th>15h10</th>
+                    <td class="conception"rowspan="3">CONCEPTION</td>
+                </tr>
+                <tr>
+                    <th>16h10</th>
+                
+                  
+                
+                    <td class="français" rowspan="2">FRANÇAIS</td>
+                   
+                </tr>
+                <tr>
+                    <th>17h</th>
+                 
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
         </section>
     </div>
 
      <!-- section articles-->
-     <div class="global" id="articles">
-        <section>
-            <h2>Articles</h2>
-        </section>
+     <div class="global" id="article">
+
+    <section class="article__centre">
+        <article class="article__">
+            <section class="article__section">
+                <figure class="article__figure">
+                  <img src="images/justin.JPG" alt="Justin" class="article__img">
+                  <figcaption class="article__figcaption">Mes expériences</figcaption>
+                </figure>
+                <p class="article__paragraphe">Récemment diplômé de l'école Sophistiquasse-Barat, je poursuis mes études dans le programme TIM dans le but de développer des compétences en médias numériques et en informatique. Mon objectif premier est de terminer mes études à l'université en me spécialisant, ainsi que de démarrer mon entreprise basée sur mes compétences.</p>
+              </section>
+        
+              <section class="article__section">
+                <figure class="article__figure">
+                  <img src="images/Justin.jpeg" alt="Justin" class="article__img">
+                  <figcaption class="article__figcaption">Mes compétences</figcaption>
+                </figure>
+                <p class="article__paragraphe">Je possède des compétences en programmation, telles qu'en HTML, CSS et JavaScript. De plus, je ne cesse de me démarquer en créant des films. C'est ma passion principale : conceptualiser, filmer, réaliser et monter sont les clés de mes réalisations. Je me suis également spécialisé en design, et le logiciel Photoshop n'a plus aucun secret pour moi !</p>
+              </section>
+        </article>
+    </section>
     </div>
 
      <!-- section galerie -->
      <div class="global" id="galerie">
         <section>
-            <h2>Galerie</h2>
+            <h2>Galerie - Mes Travaux</h2>
             <figure class="galerie">
                 <figure class="galerie_figure">
-                    <img class="galerie_img" src="images/1.png" alt="">
-                    <figcaption class="galerie_figcaption"></figcaption>
+                    <img class="galerie_img" src="images/1.png" alt="1">
+                    <figcaption class="galerie_figcaption">Vikings de Maisonneuve</figcaption>
                 </figure>
 
                 <figure class="galerie_figure">
-                    <img src="images/2.png" alt="" class="galerie_img">
-                    <figcaption class="galerie_figcaption"></figcaption>
+                    <img src="images/2.png" alt="2" class="galerie_img">
+                    <figcaption class="galerie_figcaption">Vikings de Maisonneuve</figcaption>
                 </figure>
 
                 <figure class="galerie_figure">
-                    <img src="images/3.png" alt="" class="galerie_img">
-                    <figcaption class="galerie_figcaption"></figcaption>
+                    <img src="images/3.png" alt="3" class="galerie_img">
+                    <figcaption class="galerie_figcaption">Vikings de Maisonneuve</figcaption>
                 </figure>
 
                 <figure class="galerie_figure">
-                    <img src="images/4.png" alt="" class="galerie_img">
-                    <figcaption class="galerie_figcaption"></figcaption>
+                    <img src="images/4.png" alt="4" class="galerie_img">
+                    <figcaption class="galerie_figcaption">Vikings de Maisonneuve</figcaption>
+                </figure>
+
+                <figure class="galerie_figure">
+                    <img src="images/fs.png" alt="5" class="galerie_img">
+                    <figcaption class="galerie_figcaption">TP</figcaption>
+                </figure>
+
+                <figure class="galerie_figure">
+                    <img src="images/TP3.jpg" alt="6" class="galerie_img">
+                    <figcaption class="galerie_figcaption">TP</figcaption>
                 </figure>
 
             </figure>
@@ -125,6 +243,9 @@
      <div class="global" id="video">
         <section>
             <h2>Vidéo</h2>
+            <iframe width="1000" height="600" src="https://www.youtube.com/embed/aTeSA-k6Z9k?si=FiODNW8Loe6l5QwB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+           <h6>Un projet de fin de session créer dans le cadre de mon cours en création vidéo. Avec l'aide mon collègue de classe Justin Bonin,
+                 nous avons créer ce cours film, qui a pour but de laisser le lecteur s'imaginer sa propre histoire!</h6>
         </section>
     </div>
 
@@ -142,7 +263,10 @@
             <section class="footer__lien">
                 <h4>Liens :</h4>
                 <p>- Mon école :</p>
-                <li><a href="https://www.cmaisonneuve.qc.ca/programme/integration-multimedia/">College maisonneuve</a></li>
+                <a href="https://www.cmaisonneuve.qc.ca/programme/integration-multimedia/">College maisonneuve</a>
+                <p>- Mon BeHance :</p>
+                <a href="https://www.behance.net/gallery/186873783/">Justin Soulard</a>
+
             </section>
             <section class="footer__texte">
                 <h4>Pour me contacter :</h4>
@@ -164,9 +288,9 @@
     ////////////////////////////////////////////////// ligne3 -->
            <div class="footer__conteneur__3">
             <figure>
-                <img src="https://s2.svgbox.net/social.svg?ic=github&color=000" width="32" height="32">
-                <img src="https://s2.svgbox.net/social.svg?ic=instagram&color=000" width="32" height="32">
-                <img src="https://s2.svgbox.net/social.svg?ic=behance&color=000" width="32" height="32">
+                <img src="https://s2.svgbox.net/social.svg?ic=github&color=000" width="32" height="32" alt="Github">
+                <img src="https://s2.svgbox.net/social.svg?ic=instagram&color=000" width="32" height="32" alt="Instagram">
+                <img src="https://s2.svgbox.net/social.svg?ic=behance&color=000" width="32" height="32" alt="BeHance">
             </figure>
             </div> 
         

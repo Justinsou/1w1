@@ -1,0 +1,58 @@
+#article__centre {
+    flex-flow: column;
+    justify-content: space-around;
+}    
+.article__section { 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* align-items: center;*/ 
+    min-width: 100%;
+    /* border: 1px solid #aaa; */
+    border-bottom: 2.5px solid goldenrod;
+}
+#article p {
+    margin-left: 10px;
+    flex-shrink: 2;
+    width: 40%;
+    font-family: 'Oswald', sans-serif;
+    font-size: clamp(0.875rem, 0.1458rem + 2.3333vw, 1.75rem);
+    color: rgb(226, 249, 255);
+}
+/* créer cette effet de profondeur de l'image et arrondit ses bords */
+.article__figure img {
+    box-shadow: 10px 10px 20px;
+    border-radius: 20px;
+    width: 80%;
+}
+.article__figure {
+    flex-shrink: 3;
+    width: 40%;
+}
+
+/* Changent toutes les polices des figcaption (le texe en dessous des images) */
+.article__figure > figcaption {
+    padding-top: 20px;
+    padding-bottom: 25px;
+    padding-left: 45px;
+    font-family: 'Rock Salt', cursive;
+    color: rgb(146, 164, 255);
+    font-size: clamp(0.75rem, 0.125rem + 2vw, 1.5rem);
+}
+/* Sélectionne uniquement les images figure pairs (images + figcaption) et change leur angles */
+.article__section:nth-of-type(odd) figure {
+    rotate: -5deg;
+}
+
+/* Sélectionne uniquement les images figure impairs (images + figcaption) et change leur angles */
+.article__section:nth-of-type(even) figure {
+    rotate: 5deg;
+}
+
+/* Permet au texte et au images d'être une fois à droite et une fois à gauche en utilisant encore leurs nombres pairs ou imparairs */
+.article__section:nth-of-type(odd) {
+    flex-direction: row-reverse;
+}
+.article__section:nth-of-type(even) {
+    flex-direction: row;
+}

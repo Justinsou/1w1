@@ -18,7 +18,11 @@
 }
 /* figcaption */
 .galerie_figcaption {
-
+    text-align: center;
+    margin: 10px;
+    font-family: 'Rock Salt', cursive;
+    font-size: clamp(0.75rem, 0.125rem + 2vw, 1.5rem);
+    color: white;
 } 
 /* image */
 .galerie_img {
@@ -35,7 +39,4 @@
 }
 .galerie_img:hover .galerie_img {
     filter: none;
-}
-.galerie caption {
-
 }

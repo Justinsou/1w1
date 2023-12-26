@@ -1,0 +1,20 @@
+/*
+  <!-- section video -->
+     <div class="global" id="video">
+        <section>
+            <h2>Vidéo</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/aTeSA-k6Z9k?si=e7mVPeO-G0ygHcXI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </section>
+    </div>
+*/
+#video {
+   min-height: 130vh;
+}
+#video h6 {
+        font-family: 'Oswald', sans-serif;
+        font-size: clamp(0.875rem, 0.1458rem + 2.3333vw, 1.75rem);
+        color: rgb(226, 249, 255);
+    
+    margin: 15px;
+    padding: 8px;
+}

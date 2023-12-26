@@ -10,6 +10,7 @@ html {
     *:before,
     *:after {
     box-sizing: inherit;
+    scroll-behavior: smooth;
 }
 body {
     display: flex;
@@ -36,54 +37,38 @@ body {
 .global section, .global footer{
     flex-direction: column;
 }
-#entete {
-    background-image: linear-gradient(90deg, #9d00ff, rgb(25, 0, 255)) ;
-    min-height: 1vh;
-    position: sticky;
-    top: 0;
-  
-}
-#entete header {
-    justify-content: space-between;
-    align-items: center;
-    /*  Permet de définir le réferentiel pour le menu  */
-    position: relative;
-}
+
 #accueil {
-    background-color: rgb(75, 99, 255);
+    background-color: rgb(0, 32, 148);
 }
-#inscription {
-    background-color: rgb(173, 75, 253);
+#formulaire {
+    background-color: rgb(0, 32, 148);;
 }
 #tableau {
-    background-color: rgb(247, 77, 162);
+    background-color: rgb(0, 32, 148);;
 }
-#articles {
-    background-color: rgb(249, 87, 87);
+#article {
+    background-color: rgb(0, 32, 148);;
 }
 #galerie {
-    background-color: rgb(244, 153, 78);
+    background-color: rgb(0, 32, 148);;
 }
 #video {
-    background-color: rgb(250, 235, 76);
+     background-color: rgb(0, 32, 148);
 }
 #piedpage {
-    background-color: rgb(117, 255, 72);
+    background-color: rgb(0, 32, 148);
 }
 
-
-h1 {
-    /* font size avec un Clamp chercher sur internet */
-    font-size: clamp(16px, 4vw, 36px);
-    color: #ffffff;
-}
 h2 {
-    margin-top: 10vh;
-    font-size: clamp(12px, 3vw, 26px);
-    
+    margin-top: 25vh;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    font-size: clamp(15px, 3vw, 30px);
+    color: aqua;
 }
 h3 {
-    font-size: clamp(9px, 3vw, 20px);
+    font-size: clamp(10px, 3vw, 20px);
     color: #ffffff;
     margin: 15px;
     padding: 8px;

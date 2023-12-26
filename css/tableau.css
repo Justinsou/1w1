@@ -1,0 +1,147 @@
+/*<!-- section tableau -->
+    <div class="global" id="tableau">
+        <section>
+            <h2>Tableau</h2>
+
+            <table>
+                <tr> <caption>Horaire Justin Soulard automne 2023</caption>
+        
+                    <th></th>
+                    <th>LUNDI</th>
+                    <th>MARDI</th>
+                    <th>MERCREDI</th>
+                    <th>JEUDI</th>
+                    <th>VENDREDI</th>
+                </tr>
+                <tr>
+                    <th>8h10</th>
+                    <td class="français" rowspan="2">FRANÇAIS</td>
+                    <td class="escalade" rowspan="2">ESCALADE</td>
+                    <td rowspan="3"></td>
+                    <td class="conception" rowspan="3">CONCEPTION</td>
+                    <td rowspan="2"></td>
+                </tr>
+                <tr>
+                    <th>9h</th>
+                </tr>
+                <tr>
+                    <th>10h10</th>
+                    <td rowspan="2"></td>
+                    <td rowspan="2"></td>
+                    <td class="création" rowspan="2">CRÉATION</td>
+                </tr>
+                <tr>
+                    <th>11h10</th>
+                    <td class="animation" rowspan="2">ANIMATION</td>
+                    <td></td>
+                
+                </tr>
+                <tr>
+                    <th>12h10</th>
+                    <td class="anglais" rowspan="3">ANGLAIS</td>
+                    <td class="pause" rowspan="2">PAUSES COMMUNES</td>
+        
+                    <td class="pause" rowspan="2">PAUSES COMMUNES</td>
+                    <td rowspan="2"></td>
+                </tr>
+        
+                <tr>
+                    <th>13h10</th>
+                    <td></td>
+        
+                </tr>
+                <tr>
+                    <th>14h10</th>
+                    <td class="web" rowspan="3">MISE EN PAGE</td>
+                    <td class="création" rowspan="3">CRÉATION</td>
+                    <td class="web" rowspan="2">MISE EN PAGE</td>
+                    <td class="animation" rowspan="3">ANIMATION</td>
+                </tr>
+        
+                <tr>
+                    <th>15h10</th>
+                    <td class="conception"rowspan="3">CONCEPTION</td>
+                </tr>
+                <tr>
+                    <th>16h10</th>
+                
+                  
+                
+                    <td class="français" rowspan="2">FRANÇAIS</td>
+                   
+                </tr>
+                <tr>
+                    <th>17h</th>
+                 
+                    <td></td>
+                    <td></td>
+                    <td></td>
+            </table>
+        </section>
+    </div> */
+
+
+/* Style de la légende du tableau */
+#tableau table caption {
+    font-style: italic;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #fff;
+   
+}
+
+/* Style des cellules d'en-tête */
+#tableau th {
+    background-color: #5b0021;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    border: solid 1px  white;
+}
+
+/* Style des cellules de données */
+#tableau td {
+    padding: 10px;
+    border: solid 2px rgb(255, 217, 0);
+}
+
+/* Style des cellules avec une classe spécifique */
+#tableau .français {
+    background-color: rgb(255, 123, 0);
+    color: #fff;
+}
+
+#tableau .escalade {
+    background-color: #950f00;
+    color: #fff;
+}
+
+#tableau .conception {
+    background-color: #af8c00;
+    color: #fff;
+}
+
+#tableau .création {
+    background-color: #008c4b;
+    color: #fff;
+}
+
+#tableau .animation {
+    background-color: #018881;
+    color: #fff;
+}
+
+#tableau .anglais {
+    background-color: #860074;
+    color: #fff;
+}
+
+#tableau .pause {
+    background-color: #00717975;
+    color: #fff;
+}
+
+#tableau .web {
+    background-color: #350091;
+    color: #fff;
+}
